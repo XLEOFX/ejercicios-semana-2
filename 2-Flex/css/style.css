@@ -28,6 +28,7 @@ body {
 main {
   text-align: center;
   margin-bottom: 15px;
+  color: rgba(6, 38, 124, 0.781);
 }
 
 fieldset {
@@ -35,6 +36,7 @@ fieldset {
   font-weight: lighter;
   border: none;
   font-style: italic;
+  color: rgba(6, 38, 124, 0.781);
 }
 
 input,
