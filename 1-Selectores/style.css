@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  max-width: 800px;
+  box-sizing: border-box;
+}
+
+header h1 {
+  background-color: rgba(34, 138, 235, 0.685);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+}
+ul li {
+  font-family: sans-serif;
+  font-size: 12px;
+  list-style-type: circle;
+  padding-top: 10px;
+}
+section h2 {
+  color: rgba(34, 138, 235, 0.685);
+  font-size: medium;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: 1rem;
+}
+
+ul li.importante {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+/*tabla*/
+
+table {
+  min-height: 220px;
+  font-family: sans-serif;
+  font-size: 1rem;
+  margin-left: 2rem;
+  text-align: center;
+}
+thead th {
+  color: white;
+  background-color: rgba(34, 138, 235, 0.685);
+}
+th {
+  padding: 1rem;
+}
+thead,
+th {
+  background-color: rgba(34, 138, 235, 0.685);
+}
+
+table tbody {
+  background-color: rgba(34, 138, 235, 0.39);
+}
+
+table tbody tr:nth-child(1) {
+  background-color: #d9f2fa;
+}
+
+table tbody tr:nth-child(3) {
+  background-color: #d9f2fa;
+}
+
+#descanso {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}

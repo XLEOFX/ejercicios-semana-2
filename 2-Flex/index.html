@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio Flex</title>
+    <link
+      rel="stylesheet"
+      href="/ejercicios-semanales/semana-2-layout-css/2-Flex/css/style.css"
+    />
+  </head>
+  <body>
+    <main>
+      <header><h3>PERSONALIZA TU HAMBURGUESA</h3></header>
+      <fieldset>
+        <p>Ingredientes</p>
+        <label for="checkbox">Queso</label>
+        <input id="gustos1" type="checkbox" name="queso" />
+
+        <label for="checkbox">Pimiento</label>
+        <input id="gustos2" type="checkbox" name="pimiento" />
+
+        <label for="checkbox">Cebolla</label>
+        <input id="gustos3" type="checkbox" name="cebolla" />
+
+        <label for="checkbox">Jamón</label>
+        <input id="gustos4" type="checkbox" name="jamon" />
+
+        <label for="checkbox">Huevo</label>
+        <input id="gustos5" type="checkbox" name="huevo" />
+
+        <p>Tamaño</p>
+        <label for="small">Pequeña</label>
+        <input type="radio" name="tamaño" id="small" />
+        <label for="medium">Mediana</label>
+        <input type="radio" name="tamaño" id="medium" />
+        <label for="big">Grande</label>
+        <input type="radio" name="tamaño" id="big" />
+      </fieldset>
+      <h3>DATOS DE ENTREGA</h3>
+      <fieldset class="entrega">
+        <label for="name">Nombre</label>
+        <input
+          class="espacio"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Samuel Rodriguez"
+        />
+        <label for="address">Dirección</label>
+        <input
+          class="espacio"
+          type="text"
+          name="address"
+          id="address"
+          placeholder="Rúa Real, 1, A Coruña"
+        />
+        <label for="tel">Teléfono</label>
+
+        <input
+          class="espacio"
+          type="tel"
+          name="tel"
+          id="tel"
+          placeholder="919042363"
+        />
+        <label for="coments">Instrucciones especiales</label>
+        <textarea
+          name="coments"
+          id="coments"
+          cols="28"
+          rows="5"
+          placeholder="Sin tomate"
+        ></textarea>
+      </fieldset>
+      <h3>MÉTODO DE PAGO</h3>
+      <fieldset>
+        <label for="pago"></label>
+        <select id="pago">
+          <option value="credito">Tarjeta de crédito</option>
+          <option value="efectivo">Efectivo</option>
+        </select>
+      </fieldset>
+      <button type="submit">Enviar</button>
+    </main>
+  </body>
+</html>
